@@ -2,6 +2,10 @@
 
 YoutubeSenti, a tool designed to help users analyze the sentiment of comments on both YouTube videos and shorts. By fetching comments from a specified video and performing sentiment analysis, users can gain insights into the overall sentiment distribution and identify popular words used by viewers.
 
+## Live
+
+    youtubesenti.streamlit.app
+
 ## Features
 
 - Fetch comments from YouTube video based on the video ID.
