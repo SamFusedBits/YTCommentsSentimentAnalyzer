@@ -2,7 +2,6 @@ import streamlit as st
 import googleapiclient.discovery
 import pandas as pd
 import matplotlib.pyplot as plt
-from config import DEVELOPER_KEY
 import os
 
 # Function to fetch comments from YouTube
@@ -10,7 +9,7 @@ def getcomments(video):
     try:
         api_service_name = "youtube"
         api_version = "v3"
-        youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
+        youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=st.secrets["DEVELOPER_KEY"])
 
         request = youtube.commentThreads().list(
             part="snippet",
