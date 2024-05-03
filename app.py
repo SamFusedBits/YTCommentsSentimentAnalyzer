@@ -176,7 +176,7 @@ top_words = pd.Series(' '.join(df['clean_text']).split()).value_counts()[:30]
 wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(top_words.index))
 
 # Display WordCloud
-st.write("### <span style='color:orange;'>Most Frequent Words</span> phrases", unsafe_allow_html=True)
+st.write("### <span style='color:orange;'>Most Frequent</span> Words", unsafe_allow_html=True)
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.imshow(wordcloud, interpolation='bilinear')
 ax.axis('off')
