@@ -18,7 +18,7 @@ YoutubeSenti, a tool designed to help users analyze the sentiment of comments on
 
 1. Clone the repository:
 
-   git clone https://github.com/your_username/YouTubeSenti.git
+   git clone https://github.com/SamFusedBits/YoutubeSenti.git
 
 2. Install the required Python packages:
    
