@@ -37,3 +37,7 @@ YoutubeSenti, a tool designed to help users analyze the sentiment of comments on
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+[MIT Liencse](LICENSE)
