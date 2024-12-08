@@ -46,9 +46,10 @@ custom_css = """
             border: none;
             cursor: pointer;
         }
-        
+
         .stButton > button:hover {
             background-color: #e60000;
+            
         }
 
         /* DataFrames */
@@ -155,7 +156,7 @@ video_id = st.sidebar.text_input(
 
 # Sidebar actions
 if st.sidebar.button("Fetch Comments"):
-    st.experimental_rerun()
+    st.rerun()
 
 # Fetch and analyze comments
 if video_id:
